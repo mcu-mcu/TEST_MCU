@@ -34,15 +34,14 @@
  */
 /*-------------------STM32F103C8T6----------------------------
     Using the first SPI port (SPI_1)
-    RST_PIN  <-->  PA3 <-->  BOARD_SPI1_NSS_PIN
+    RST_PIN  <-->  PA3 
     SS(SDA)  <-->  PA4 <-->  BOARD_SPI1_NSS_PIN
     SCK      <-->  PA5 <-->  BOARD_SPI1_SCK_PIN
     MISO     <-->  PA6 <-->  BOARD_SPI1_MISO_PIN
     MOSI     <-->  PA7 <-->  BOARD_SPI1_MOSI_PIN
-    RST_PIN
-/*-------------------STM32F103C8T6----------------------------    
- * 
- */
+--------------------------------------------------------------
+*/
+
 #include <SPI.h>
 #include <MFRC522.h>
 
